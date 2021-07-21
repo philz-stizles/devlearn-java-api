@@ -1,7 +1,6 @@
-package io.devdezyn.devlearnrest.permissions;
+package io.devdezyn.devlearnrest.permission;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 
 @Entity(name = "Permission")
 @Table(

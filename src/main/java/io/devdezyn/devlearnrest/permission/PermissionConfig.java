@@ -1,4 +1,4 @@
-package io.devdezyn.devlearnrest.permissions;
+package io.devdezyn.devlearnrest.permission;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ public class PermissionConfig {
 
 
     @Bean
-    CommandLineRunner commandLineRunner(PermissionRepository permissionRepository ) {
+    CommandLineRunner permissionCommandLineRunner(PermissionRepository permissionRepository ) {
         return args -> {
             Permission createStudent = new Permission("student:create", "User can create a student");
             Permission readStudent = new Permission("student:read", "User can view a student or list of students");

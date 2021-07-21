@@ -1,4 +1,4 @@
-package io.devdezyn.devlearnrest.permissions;
+package io.devdezyn.devlearnrest.permission;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

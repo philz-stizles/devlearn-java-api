@@ -1,4 +1,4 @@
-package io.devdezyn.devlearnrest.permissions;
+package io.devdezyn.devlearnrest.permission;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
